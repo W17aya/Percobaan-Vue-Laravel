@@ -1,8 +1,7 @@
 <template>
-    <div>
        <!-- Hero Section Begin -->
     <section class="hero-section">
-        <carousel class="hero-items" :items-to-show="1">
+        <carousel :items-to-show="1">
             <slide v-for="slide in 10" :key="slide">
                 <div class="single-hero-items set-bg" data-setbg="img/hero-1.jpg">
                 <div class="container">
@@ -23,12 +22,9 @@
         <navigation />
         <pagination />
       </template>
-
-          
         </carousel>
     </section>
     <!-- Hero Section End -->
-    </div>
 </template>
 
 <script>
