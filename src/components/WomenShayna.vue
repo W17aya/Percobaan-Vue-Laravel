@@ -2,9 +2,10 @@
         <!-- Women Banner Section Begin -->
         <section class="women-banner spad">
             <carousel :items-to-show="1">
+            <slide v-for="slide in 1" :key="slide">
             <div class="row">
                 <div class="col-lg-12 mt-5">
-                    <div class="product-slider owl-carousel">
+                    <!-- <div class="product-slider owl-carousel"> -->
                         <div class="product-item">
                             <div class="pi-pic">
                                 <img src="img/mickey1.jpg" alt="" />
@@ -89,9 +90,13 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
+                        </div>
+                        </div>
+</slide>
+                        <template #addons>
+                            <navigation/>
+                            <pagination/>
+                            </template>
         </carousel>
     </section>
     <!-- Women Banner Section End -->
@@ -100,16 +105,16 @@
 <script>
 
 import "vue3-carousel/dist/carousel.css";
-// import {Carousel, Slide, Pagination, Navigation} from "vue3-carousel";
+import {Carousel, Slide, Pagination, Navigation} from "vue3-carousel";
 
 
 export default {
     name:"Womenshayna",
     components: {
-        // Carousel,
-        // Slide,
-        // Pagination,
-        // Navigation
+        Carousel,
+        Slide,
+        Pagination,
+        Navigation
     }
 };
 </script>
