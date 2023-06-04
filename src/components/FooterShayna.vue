@@ -50,7 +50,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copyright-text">
-                            Copyright &copy;
+                            Copyright 2023
                             All rights reserved | Shayna
                         </div>
                     </div>
