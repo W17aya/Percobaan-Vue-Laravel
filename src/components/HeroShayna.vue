@@ -3,7 +3,7 @@
     <section class="hero-section">
         <carousel :items-to-show="1">
             <slide v-for="slide in 10" :key="slide">
-                <div class="single-hero-items set-bg" data-setbg="img/hero-1.jpg">
+                <div class="single-hero-items set-bg" style="background-image: url('img/hero-1.jpg')">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5">
