@@ -3,6 +3,7 @@
         <HeaderShayna/> 
         <HeroShayna/>
         <WomenShayna/>
+        <GaleriShayna/>
     </div>
 </template>
 
@@ -12,13 +13,15 @@
 import HeaderShayna from '@/components/HeaderShayna.vue';
 import HeroShayna from '@/components/HeroShayna.vue';
 import WomenShayna from '@/components/WomenShayna.vue';
+import GaleriShayna from '@/components/GaleriShayna.vue';
 
 export default {
   name: 'Home',
   components: {
     HeaderShayna,
     HeroShayna,
-    WomenShayna
+    WomenShayna,
+    GaleriShayna
   }
 }
 </script>
