@@ -1,8 +1,8 @@
 <template>
        <!-- Hero Section Begin -->
     <section class="hero-section">
-        <carousel :items-to-show="1">
-            <slide v-for="slide in 3" :key="slide">
+        <carousel :autoplay="2000" wrap-around="true" :items-to-show="1">
+                <Slide v-for="slide in 10" :key="slide">
                 <div class="single-hero-items set-bg" style="background-image: url('img/hero-1.jpg')">
                 <div class="container">
                     <div class="row banner-info">

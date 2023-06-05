@@ -1,8 +1,8 @@
 <template>
         <!-- Women Banner Section Begin -->
         <section class="women-banner spad">
-            <carousel :items-to-show="1">
-            <slide v-for="slide in 1" :key="slide">
+            <carousel :items-to-show="3" :wrap-around="true">
+            <slide v-for="slide in 3" :key="slide">
             <div class="row">
                 <div class="col-lg-12 mt-5">
                     <!-- <div class="product-slider owl-carousel"> -->
