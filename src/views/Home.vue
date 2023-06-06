@@ -16,7 +16,7 @@ import HeaderShayna from '@/components/HeaderShayna.vue';
 import HeroShayna from '@/components/HeroShayna.vue';
 import WomenShayna from '@/components/WomenShayna.vue';
 import GaleriShayna from '@/components/GaleriShayna.vue';
-import PartnerShayna from '@/components/LogoPartner.vue';
+import PartnerShayna from '@/components/PartnerShayna.vue';
 import FooterShayna from '@/components/FooterShayna.vue';
 
 export default {

@@ -1,7 +1,7 @@
 <template>
         <!-- Women Banner Section Begin -->
         <section class="women-banner spad">
-            <carousel :items-to-show="3" :wrap-around="true">
+            <carousel :autoplay="2000" :items-to-show="1" :wrap-around="true">
             <slide v-for="slide in 3" :key="slide">
             <div class="row">
                 <div class="col-lg-12 mt-5">
@@ -26,6 +26,9 @@
                                     <span>$35.00</span>
                                 </div>
                             </div>
+                            <ul>
+
+                            </ul>
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
@@ -47,7 +50,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="product-item">
+                        <!-- <div class="product-item">
                             <div class="pi-pic">
                                 <img src="img/products/women-3.jpg" alt="" />
                                 <ul>
@@ -89,13 +92,12 @@
                                     $34.00
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         </div>
                         </div>
 </slide>
                         <template #addons>
-                            <navigation/>
-                            <pagination/>
+                            <!-- <navigation/> -->
                             </template>
         </carousel>
     </section>
@@ -105,16 +107,16 @@
 <script>
 
 import "vue3-carousel/dist/carousel.css";
-import {Carousel, Slide, Pagination, Navigation} from "vue3-carousel";
+import {Carousel, Slide, } from "vue3-carousel";
 
 
 export default {
     name:"Womenshayna",
     components: {
         Carousel,
-        Slide,
-        Pagination,
-        Navigation
+        Slide
+        // Navigation
+        // pagination
     }
 };
 </script>

@@ -5,11 +5,11 @@
         <div class="container">
             <div class="logo-carousel owl-carousel">
                 <div class="logo-item">
-                    <div class="tablecell-inner">
-                        <img src="img/logo-carousel/logo-1.png" alt="" />
+                    <div class="tablecell-inner" style="background-image: url('img/logo-carousel/logo-1.png')">
+                        <!-- <img src="img/logo-carousel/logo-1.png" alt="" /> -->
                     </div>
                 </div>
-                <!-- <div class="logo-item">
+                <div class="logo-item">
                     <div class="tablecell-inner">
                         <img src="img/logo-carousel/logo-2.png" alt="" />
                     </div>
@@ -28,12 +28,12 @@
                     <div class="tablecell-inner">
                         <img src="img/logo-carousel/logo-5.png" alt="" />
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </div>
-    <!-- Partner Logo Section End -->
     </div>
+    <!-- Partner Logo Section End -->
 </template>
 
 <script>

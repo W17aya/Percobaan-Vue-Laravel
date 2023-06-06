@@ -1,11 +1,11 @@
 <template>
-       <!-- Hero Section Begin -->
-    <section class="hero-section">
-        <carousel :autoplay="2000" wrap-around="true" :items-to-show="1">
-                <Slide v-for="slide in 10" :key="slide">
-                <div class="single-hero-items set-bg" style="background-image: url('img/hero-1.jpg')">
-                <div class="container">
-                    <div class="row banner-info">
+    <!-- Hero Section Begin -->
+ <section class="hero-section">
+     <carousel :autoplay="2000" wrap-around="true" :items-to-show="1">
+             <Slide v-for="slide in 10" :key="slide">
+             <div class="single-hero-items set-bg" style="background-image: url('img/hero-1.jpg')">
+             <div class="container">
+                 <div class="row banner-info">
                         <div class="col-lg-5">
                             <span>Bag,kids</span>
                             <h1>Black friday</h1>
