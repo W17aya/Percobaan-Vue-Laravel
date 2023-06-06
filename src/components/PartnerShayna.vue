@@ -3,10 +3,14 @@
             <!-- Partner Logo Section Begin -->
     <div class="partner-logo">
         <div class="container">
-            <div class="logo-carousel owl-carousel">
-                <div class="logo-item">
+            <!-- <carousel class="logo-carousel" :loop="true" :autoplay="true" :items="5" :dots="false" :nav="false"> -->
+                <!-- <div class="logo-item">
                     <div class="tablecell-inner" style="background-image: url('img/logo-carousel/logo-1.png')">
-                        <!-- <img src="img/logo-carousel/logo-1.png" alt="" /> -->
+                    </div>
+                </div> -->
+                <div class="logo-item">
+                    <div class="tablecell-inner">
+                        <img src="img/logo-carousel/logo-1.png" alt="" />
                     </div>
                 </div>
                 <div class="logo-item">
@@ -31,13 +35,26 @@
                 </div>
             </div>
         </div>
-    </div>
-    </div>
+        
+        </div>
+       
     <!-- Partner Logo Section End -->
 </template>
 
 <script>
-export default{
-    name:'PartnerShayna'
-}
+
+import "vue3-carousel/dist/carousel.css";
+// import {Carousel, Slide, Pagination, Navigation} from "vue3-carousel";
+
+
+
+export default {
+    name:"PartnerShayna",
+    components: {
+        // Carousel
+        // Slide,
+        // Pagination,
+        // Navigation
+    }
+};
 </script>

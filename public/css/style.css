@@ -1508,6 +1508,7 @@ ol {
     display: table-cell;
     height: 30px;
     vertical-align: middle;
+    position: relative;
 }
 
 .owl-carousel .owl-item img {

@@ -6,8 +6,8 @@
              <div class="single-hero-items set-bg" style="background-image: url('img/hero-1.jpg')">
              <div class="container">
                  <div class="row banner-info">
-                        <div class="col-lg-5">
-                            <span>Bag,kids</span>
+                        <div class="col-lg-5"> 
+                            <span class="banner-text" >bag, kids </span>
                             <h1>Black friday</h1>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -17,6 +17,19 @@
                     </div>
                 </div>
             </div>
+            <div class="single-hero-items set-bg" style="background-image: url('/img/hero-2.jpg')">
+          <div class="container">
+            <!-- <div class="row"> -->
+                <div class="row banner-info">
+              <div class="col-lg-5">
+                <span>Bag,kids</span>
+                <h1>Black friday</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                <a href="#" class="primary-btn">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
              </slide>
                 <template #addons>
         <navigation />
@@ -52,5 +65,9 @@ export default {
 
 .banner-info{
     margin-top: 130px;
+}
+.banner-text{
+    color: fffff;
+    size: 13px;
 }
 </style>
