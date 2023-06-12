@@ -7,7 +7,7 @@
              <div class="container">
                  <div class="row banner-info">
                         <div class="col-lg-5"> 
-                            <span class="banner-text" >bag, kids </span>
+                            <span class="primary-btn" >bag, kids </span>
                             <h1>Black friday</h1>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -17,9 +17,9 @@
                     </div>
                 </div>
             </div>
-            <div class="single-hero-items set-bg" style="background-image: url('/img/hero-2.jpg')">
+            <!-- <div class="single-hero-items set-bg" style="background-image: url('/img/hero-2.jpg')">
           <div class="container">
-            <!-- <div class="row"> -->
+            <div class="row">
                 <div class="row banner-info">
               <div class="col-lg-5">
                 <span>Bag,kids</span>
@@ -29,7 +29,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
              </slide>
                 <template #addons>
         <navigation />
